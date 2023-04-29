@@ -1,0 +1,16 @@
+dazzling_nash:
+      image: palashnehalbhaishah315/task7.2c
+      build:
+        context: .
+        dockerfile: Dockerfile
+      restart: unless-stopped
+      ports:
+      - "3000:3000"
+      networks:
+      - myNetwork
+      healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:3000/"]
+        interval: 30s
+        timeout: 10s
+        retries: 3
+    restart: on-failure

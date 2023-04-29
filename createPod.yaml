@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: palashshahpod310501
+  labels:
+    run: mypod
+spec:
+  containers:
+  - image: palash315/palashnehalbhaishah315
+    name: palashnode
+    ports:
+    - containerPort: 8080
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+  
+
