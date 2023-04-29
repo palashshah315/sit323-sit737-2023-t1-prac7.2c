@@ -83,10 +83,10 @@ app.get('/logout', function (req, res) {
 app.get('/dashboard', ensureAuthenticated, function (req, res) {
     res.send(`
   Welcome, ${req.user.username} you're authenticated and now you can use your calculator!
-  <li>For addition of two numbers enter the URL "http://localhost:3000/addTwoNumbers?n1=number1&n2=number2"</li>
-  <li>For Multiplication of two numbers enter the URL "http://localhost:3000/multiplyTwoNumbers?n1=number1&n2=number2"</li>
-  <li>For Division of two numbers enter the URL "http://localhost:3000/divideTwoNumbers?n1=number1&n2=number2"</li>
-  <li>For Subtraction of two numbers enter the URL "http://localhost:3000/subtractTwoNumbers?n1=number1&n2=number2"</li>
+  <li>For addition of two numbers enter the URL "http://localhost:2000/addTwoNumbers?n1=number1&n2=number2"</li>
+  <li>For Multiplication of two numbers enter the URL "http://localhost:2000/multiplyTwoNumbers?n1=number1&n2=number2"</li>
+  <li>For Division of two numbers enter the URL "http://localhost:2000/divideTwoNumbers?n1=number1&n2=number2"</li>
+  <li>For Subtraction of two numbers enter the URL "http://localhost:2000/subtractTwoNumbers?n1=number1&n2=number2"</li>
   `);
 });
 
