@@ -12,3 +12,6 @@ I have updated the code in server.js file I have just updated the username and p
 
 # So task for SIT737 students only
 The updated username is "deakin" and password is "deakin12345"
+
+# Updated Pods, Replica Sets and Deployment
+Here I have add the other updated pods, replica sets and deployment files after modifying the code and this is for SIT737 only
