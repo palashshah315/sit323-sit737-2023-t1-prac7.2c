@@ -48,9 +48,9 @@ app.use(passport.session());
 // Set up a local authentication strategy using Passport.js
 passport.use(new LocalStrategy(
     function (username, password, done) {
-        if (username === 'admin' && password === 'password') {
+        if (username === 'deakin' && password === 'deakin12345') {
             // Successful login
-            return done(null, { username: 'admin' });
+            return done(null, { username: 'deakin' });
         } else {
             // Failed login
             return done(null, false, { message: 'Incorrect username or password.' });
