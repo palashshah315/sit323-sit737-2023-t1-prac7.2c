@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: updatedimgaepod
+  labels:
+    run: myupdatedpod
+spec:
+  containers:
+  - image: palash315/great_pare
+    name: palashupdatednode
+    ports:
+    - containerPort: 8080
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+  
+
