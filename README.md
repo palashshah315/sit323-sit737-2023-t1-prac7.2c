@@ -6,3 +6,9 @@ The username is admin and password is "password" when you login
 
 # link for my docker hub for practical 7.2C
 "https://hub.docker.com/repository/docker/palash315/palashnehalbhaishah315/general"
+
+# For SIT737 Students Only 
+I have updated the code in server.js file I have just updated the username and password
+
+# So task for SIT737 students only
+The updated username is "deakin" and password is "deakin12345"
